@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leach Pottery Website Proposal – Parasoul</title>
+  <style>
+    /* Basic Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+    /* Navigation */
+    nav {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      z-index: 1000;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #0077cc; }
+
+    /* Sections */
+    section { padding: 80px 20px; max-width: 1000px; margin: auto; }
+    h1, h2, h3 { margin-bottom: 20px; }
+    h1 { font-size: 2.5rem; text-align: center; margin-bottom: 40px; }
+    h2 { font-size: 2rem; margin-top: 40px; }
+    p { margin-bottom: 20px; }
+
+    /* Hero Section */
+    #hero { 
+      background: url('hero-image.jpg') no-repeat center center/cover; 
+      color: white; 
+      text-align: center; 
+      padding: 120px 20px; 
+    }
+    #hero h1 { color: #fff; }
+    #hero p { font-size: 1.2rem; }
+
+    /* Portfolio Grid */
+    .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
+    .portfolio-item { border: 1px solid #ddd; padding: 20px; border-radius: 10px; background: #fafafa; }
+    .portfolio-item h3 { margin-bottom: 10px; }
+    .portfolio-item p { font-size: 0.95rem; }
+
+    /* Timeline */
+    .timeline { margin-top: 20px; }
+    .timeline-step { margin-bottom: 20px; }
+    .timeline-step h3 { font-size: 1.2rem; color: #555; }
+
+    /* Contact */
+    #contact { text-align: center; }
+    #contact a { display: inline-block; margin-top: 10px; padding: 10px 20px; background: #333; color: #fff; text-decoration: none; border-radius: 5px; transition: background 0.3s; }
+    #contact a:hover { background: #0077cc; }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+      nav { flex-direction: column; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#understanding">Project</a>
+    <a href="#approach">Approach</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#values">Values</a>
+    <a href="#budget">Budget</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Leach Pottery Website Proposal</h1>
+    <p>A personalised, mobile-first, and accessibility-focused approach by Parasoul</p>
+  </section>
+
+  <!-- About Us -->
+  <section id="about">
+    <h2>About Parasoul</h2>
+    <p>Parasoul is a small, dedicated agency offering personalised attention and flexible collaboration. We are mindful of budget while delivering high-quality, sustainable, and modern web solutions.</p>
+  </section>
+
+  <!-- Project Understanding -->
+  <section id="understanding">
+    <h2>Project Understanding</h2>
+    <p>The Leach Pottery redevelopment aims to deliver a mobile-first, accessible website integrating Shopify e-commerce, ticketing, and course bookings. The new site should showcase collections, exhibitions, and community programs while driving audience growth and reflecting the Pottery’s refreshed brand identity.</p>
+  </section>
+
+  <!-- Approach & Methodology -->
+  <section id="approach">
+    <h2>Approach & Methodology</h2>
+    <div class="timeline">
+      <div class="timeline-step">
+        <h3>Discovery & Planning</h3>
+        <p>Understand audiences, content, and technical requirements.</p>
+      </div>
+      <div class="timeline-step">
+        <h3>Design</h3>
+        <p>Mobile-first and accessibility-focused designs aligned with the refreshed brand.</p>
+      </div>
+      <div class="timeline-step">
+        <h3>Development</h3>
+        <p>Shopify-based build with integrations and scalable architecture.</p>
+      </div>
+      <div class="timeline-step">
+        <h3>Testing & QA</h3>
+        <p>Accessibility checks, SEO optimisation, and performance testing.</p>
+      </div>
+      <div class="timeline-step">
+        <h3>Launch & Handover</h3>
+        <p>Smooth transition to the Pottery team with training and documentation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>Portfolio / Case Studies</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <h3>Artisan Goods Online Store</h3>
+        <p><strong>Challenge:</strong> Needed a mobile-first Shopify site integrating e-commerce.</p>
+        <p><strong>Solution:</strong> Designed an accessible site with seamless checkout and SEO optimisation.</p>
+        <p><strong>Outcome:</strong> Increased mobile conversions and simplified order management.</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Creative Workshop Platform</h3>
+        <p><strong>Challenge:</strong> Manage course bookings, events, and online sales.</p>
+        <p><strong>Solution:</strong> Shopify site with booking integrations, responsive design, and accessibility focus.</p>
+        <p><strong>Outcome:</strong> Increased bookings and enhanced user experience.</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Heritage-Inspired Retail Website</h3>
+        <p><strong>Challenge:</strong> Migrate existing store to Shopify while improving SEO and mobile experience.</p>
+        <p><strong>Solution:</strong> Mobile-first design with accessibility and SEO improvements.</p>
+        <p><strong>Outcome:</strong> Preserved SEO rankings and delivered a scalable, modern site.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values & Local Connection -->
+  <section id="values">
+    <h2>Values & Local Connection</h2>
+    <p>Davide has attended Leach Pottery workshops and volunteers at St Ives Orchard nearby. Parasoul shares the Pottery’s values of craft, community, and sustainability, bringing this alignment into the design and approach of the new website.</p>
+  </section>
+
+  <!-- Budget & Timeline -->
+  <section id="budget">
+    <h2>Budget & Timeline</h2>
+    <p>Indicative budget: £35–40k. Delivery expected by March 2026, with milestones for discovery, design, development, and launch.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Davide – Parasoul</p>
+    <p>Email: <a href="mailto:yourname@parasoul.com">yourname@parasoul.com</a></p>
+    <p>Phone: +44 [Your Number]</p>
+    <a href="mailto:yourname@parasoul.com">Get in Touch</a>
+  </section>
+
+</body>
+</html>
